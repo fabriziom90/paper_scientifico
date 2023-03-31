@@ -7,23 +7,26 @@
         <title>HTML - Introduzione</title>
     </head>
     <body>
+        <!-- EHI, MA SONO UN COMMENTO! -->
         <h1>Benvenuti alla prima lezione di HTML</h1>
         <h2>Spero troviate i concetti espressi in questa lezione interessanti</h2>
         <p>
             Lorem, ipsum dolor sit amet <strong>consectetur</strong> adipisicing <strong>elit</strong>. Sapiente consequatur quidem architecto praesentium animi ipsam, ut facilis voluptatem neque, accusamus recusandae! 
             <br>
             <span>Quos aliquid minima dolorem, consequuntur asperiores laudantium <strong>magnam qui!</strong></span>
+            <a href="#ordered-list">Vai alla lista</a>
         </p>
         <p>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti consectetur velit dolore, incidunt odit numquam, temporibus, error quia quo dolor facilis ex tempore recusandae. Voluptatibus provident aperiam nam hic recusandae.
         </p>
         <strong>Fine pagina</strong>
         <a href="https://www.w3schools.com/html/default.asp" target="_blank">Ciao, sono un link!</a>
+        
         <div>
             <img src="https://picsum.photos/id/237/200/300" alt="Immagine prova"><br><span>Questa è un'immagine</span>
         </div>
         <div>
-            <ol>
+            <ol id="ordered-list">
                 <li>
                     <div>
                         <h4>Item 1</h4>
@@ -41,6 +44,33 @@
                 <li><div>Item 4</div></li>
                 <li><div>Item 5</div></li>
             </ol>
+            <ul>
+                <li>
+                    Elemento lista
+                </li>
+                <li>
+                    Elemento lista
+                </li>
+                <li>
+                    Elemento lista
+                    <ol>
+                        <li>
+                            Prima lista annidata
+                            <ul>
+                                <li>
+                                    Seconda lista annidata
+                                </li>
+                                <li>
+                                    Seconda lista annidata
+                                </li>
+                            </ul>
+                        </li>
+                        <li>
+                            Prima lista annidata
+                        </li>
+                    </ol>
+                </li>
+            </ul>
         </div>
     </body>
 </html>
